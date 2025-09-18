@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Transitions & Animations Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>🏅 CSS3 Transitions & Animations Assignment</h1>
+            <p class="subtitle">Make your web page come alive with CSS & JavaScript!</p>
+        </header>
+
+        <section class="card">
+            <h2>🎨✨ Part 1: CSS3 Transitions and Animations</h2>
+            <button class="button">Hover Me!</button>
+            <div class="box" id="animatedBox">Animated Box</div>
+        </section>
+
+        <section class="card">
+            <h2>📚✨ Part 2: JavaScript Functions</h2>
+            <button onclick="showScopeDemo()">Show Scope Demo</button>
+            <div id="scopeResult"></div>
+            <button onclick="calculateAndShow(5, 3)">Calculate Sum (5 + 3)</button>
+            <div id="calcResult"></div>
+        </section>
+
+        <section class="card">
+            <h2>🎨🎬 Part 3: Combining CSS & JavaScript</h2>
+            <button onclick="animateBox('animatedBox')">Animate Box</button>
+            <button onclick="toggleModal()">Show Modal</button>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="toggleModal()">&times;</span>
+                    <p>This is a modal popup!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
